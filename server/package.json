@@ -1,0 +1,31 @@
+{
+  "name": "beauty-server",
+  "version": "1.0.0",
+  "description": "#### 项目介绍 node koa-demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js",
+    "init": "nodemon ./db/init/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangjie605620873/beauty-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangjie605620873/beauty-server/issues"
+  },
+  "homepage": "https://github.com/wangjie605620873/beauty-server#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.0",
+    "jwt-simple": "^0.5.5",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jwt": "^3.5.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "mysql2": "^1.6.4"
+  }
+}

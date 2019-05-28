@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#1296db",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "superWang的Blog",
+  "backgroundColor": "#1296db",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh" : true
+}

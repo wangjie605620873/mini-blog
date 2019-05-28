@@ -1,0 +1,16 @@
+.for-container {
+  background: rgba(255, 255, 255, .5) !important;
+
+  .for-editor .for-panel .for-preview{
+    background:none !important;
+  }
+  .for-editor .for-editor-wrapper .for-line-num{
+    background:none !important;
+  }
+
+}
+
+.for-markdown-preview pre{
+  background-color:rgba(255,255,255,0.5) ;
+}
+
