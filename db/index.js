@@ -1,5 +1,5 @@
 const mysql = require('mysql2');
-const config = require('../config/mysql-config')
+const config = require('../server/config/mysql-config')
 let pool = mysql.createPool(config);
 let query = function (sql, values) {
   return new Promise((resolve, reject) => {
