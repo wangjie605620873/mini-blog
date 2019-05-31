@@ -5,12 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
-    "start": "nodemon ./app.js",
-=======
     "start": "nodemon ./src/app.js",
->>>>>>> develop
-    "init": "nodemon ./db/init/init.js"
+    "init": "nodemon ./src/db/init/init.js"
   },
   "repository": {
     "type": "git",
@@ -31,5 +27,8 @@
     "koa-multer": "^1.0.2",
     "koa-router": "^7.4.0",
     "mysql2": "^1.6.4"
+  },
+  "devDependencies": {
+    "koa-static": "^5.0.0"
   }
 }

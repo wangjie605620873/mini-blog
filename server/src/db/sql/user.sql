@@ -1,5 +1,6 @@
-CREATE TABLE   IF NOT EXISTS  `user` (
+CREATE TABLE  IF NOT EXISTS  `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `phone` int(11) NOT NULL,
   `name` varchar(255) DEFAULT NULL,
   `nick` varchar(255) DEFAULT NULL,
   `detail_info` json DEFAULT NULL,

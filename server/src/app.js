@@ -3,9 +3,24 @@ const app = new Koa();
 const {Token_Test, Token_Test_Error} = require('./middleware/token/index');
 const _router = require('./router/index');
 const bodyParser = require('koa-bodyparser');
+const serve = require('koa-static');
+const path = require('path');
+const port = process.env.PORT || 5555;
+const staticPath = "../static";
 app.use(bodyParser());
+app.use(serve(
+  path.join(__dirname,staticPath)
+));
+
+console.log( path.join(__dirname,staticPath))
+
 app.use(Token_Test_Error);
 app.use(Token_Test());
 app.use(_router.routes());
 app.use(_router.allowedMethods());
-app.listen(5555, () => {console.log("success")});
+
+
+
+
+
+app.listen(port, () => {console.log(`port :${port} success`)});
