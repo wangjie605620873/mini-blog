@@ -1,20 +1,30 @@
 const Koa = require('koa');
 const app = new Koa();
+const cors = require('koa2-cors');
+
 const {Token_Test, Token_Test_Error} = require('./middleware/token/index');
 const _router = require('./router/index');
-const bodyParser = require('koa-bodyparser');
-const formidable = require('koa-formidable'); // 图片处理
+const bodyParser = require('koa-body');
+
 const serve = require('koa-static');
 const path = require('path');
 const port = process.env.PORT || 5555;
-const staticPath = "../static";
-app.use(bodyParser());
-app.use(serve(path.join(__dirname,staticPath)));
+const staticPath = "/static";
+global.STATICURL = "http://127.0.0.1:5555/"
 
-app.use(Token_Test_Error);
-app.use(Token_Test());
-app.use(_router.routes());
-app.use(_router.allowedMethods());
+app
+  .use(cors())
+  .use(bodyParser({
+    multipart:true,
+    formidable:{
+    maxFieldsSize:10*1024*1024,
+    multipart:true
+    }
+  }))
+  .use(Token_Test_Error)
+  .use(Token_Test())
+  .use(serve(path.join(process.cwd(), './static')))
 
-
-app.listen(port, () => {console.log(`port :${port} success`)});
+  .use(_router.routes())
+  .use(_router.allowedMethods())
+  .listen(port, () => {console.log(`port :${port} success`)});
