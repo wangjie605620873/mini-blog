@@ -1,17 +1,12 @@
 <template>
   <div>
     <el-upload
-      class="avatar-uploader"
-      action="http://127.0.0.1:5555/addColumnUploadImg"
-      :show-file-list="false"
-      :on-success="handleAvatarSuccess"
-      >
+      class="avatar-uploader" action="http://127.0.0.1:5555/addColumnUploadImg" :show-file-list="false" :on-success="handleAvatarSuccess">
       <img v-if="imageUrl" :src="imageUrl" class="avatar">
       <i v-else class="el-icon-plus avatar-uploader-icon"></i>
     </el-upload>
     <img :src="upImg" alt="">
   </div>
-
 </template>
 
 <style>
