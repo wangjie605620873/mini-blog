@@ -2,7 +2,9 @@
   <div>
     <Header></Header>
     <Menu></Menu>
-    <router-view/>
+    <div class="container">
+      <router-view/>
+    </div>
   </div>
 </template>
 <script>

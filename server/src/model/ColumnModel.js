@@ -1,19 +1,18 @@
 const {dbQuery} = require('../db/utils/utils');
+const moment = require('moment');
 class ColumnModel {
-  /*
-  *
-  * */
-  async  addColumn(options) {
-    // let a = {columnName:}
-    let {columnName, columnDescribe,columnCover} = options;
-
-    let Sql = `INSTER INTO column (column_name,column_describe,column_dover,column_create) VALUES (${columnName},${columnDescribe},${columnCover},${Date.now()})`;
+  async addColumn(options) {
+    let {name, desc, imgUrl} = options;
+    let Sql = `INSERT INTO column_list (column_name,column_describe,column_cover,column_create) VALUES (${name},${desc},'${imgUrl}',${Date.now() + ''})`;
     let dbData = await dbQuery(Sql);
-    console.log(dbData);
-    return {code : 200};
+    return dbData;
+  }
+  async getColumn(){
+    let sql = `SELECT * FROM  column_list`
+    let data = await  dbQuery(sql);
+    return data
   }
 }
-
 module.exports = new ColumnModel();
 
 

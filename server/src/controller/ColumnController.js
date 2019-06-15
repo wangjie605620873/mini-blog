@@ -1,13 +1,17 @@
 const ColumnService = require('../service/ColumnService');
-const fs = require('fs');
 class ColumnController{
-  async addColumn(){
-    let data = await ColumnService.addColumn();
-    return data;
+  static async addColumn(ctx,next){
+    ctx.body = await ColumnService.addColumn(ctx);
+    await  next
   }
-  async addColumnUploadImg(ctx){
-    let res = await ColumnService.addColumnUploadImg(ctx);
-    ctx.body = res;
+  static async addColumnUploadImg(ctx,next){
+    ctx.body = await ColumnService.addColumnUploadImg(ctx);
+    await next
+
+  }
+  static async getColumn(ctx,next){
+    ctx.body = await ColumnService.getColumn(ctx);
+    await  next
   }
 }
-module.exports = new ColumnController();
+module.exports = ColumnController;

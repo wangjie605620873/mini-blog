@@ -9,14 +9,14 @@ module.exports = {
   productionSourceMap: false,
   devServer: {
     // host: 'localhost',
-    host: "0.0.0.0",
+    host: "localhost",
     port: 8080, // 端口号
     https: false, // https:{type:Boolean}
     open: true, //配置自动启动浏览器
     hotOnly: true, // 热更新
     proxy: { //配置自动启动浏览器
       '/api': {
-        target: 'http://waterdropapitest.aldwx.com/',
+        target: 'http://17.0.0.1:5555/',
         changeOrigin: true,
         pathRewrite: {
           '^/api': '/'

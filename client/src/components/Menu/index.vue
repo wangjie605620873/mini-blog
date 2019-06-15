@@ -12,16 +12,17 @@
         <el-submenu index="1">
           <template slot="title">
             <i class="el-icon-pie-chart"></i>
-            <span>推广概览</span>
+            <span>分类管理</span>
           </template>
-          <el-menu-item index="/b/report/overview">推广概览</el-menu-item>
+          <el-menu-item index="/admin/addColumn">分类管理</el-menu-item>
+          <el-menu-item index="/admin/column">分类类表</el-menu-item>
         </el-submenu>
         <el-submenu index="2">
           <template slot="title">
             <i class="el-icon-notebook-2"></i>
-            <span>推广报表</span>
+            <span>轮播图管理</span>
           </template>
-          <el-menu-item index="/b/report/report-popularize">推广分析</el-menu-item>
+          <el-menu-item index="/b/report/report-popularize">首页轮播图</el-menu-item>
         </el-submenu>
         <el-submenu index="3">
           <template slot="title">

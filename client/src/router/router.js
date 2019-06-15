@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
 Vue.use(Router);
 export default new Router({
   mode: 'history',
@@ -16,13 +17,26 @@ export default new Router({
       component: () => import('../views/login/index.vue')
     },
     {
-      path : "/admin",
-      component : () => import('../views/admin/index.vue'),
-      children:[{
-        path : "index",
-        name : "index",
-        component : () => import('../views/index/index.vue')
-      }],
+      path: "/admin",
+      component: () => import('../views/admin/index.vue'),
+      children: [
+        {
+          path: "index",
+          name: "index",
+          component: () => import('../views/index/index.vue')
+        },
+        {
+          path: "column",
+          name: "column",
+          component: () => import('../views/column/index.vue')
+        },
+        {
+          path : "addColumn",
+          name : 'addColumn',
+          component: () => import('../views/addColumn/index.vue')
+        }
+
+      ],
     }
   ]
 })

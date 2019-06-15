@@ -16,6 +16,8 @@ const config = {
     max: 5,
     min: 0,
     idle: 10000
-  }
+  },
+  multipleStatements: true,
+  dateStrings:true
 };
 module.exports = config;

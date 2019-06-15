@@ -12,11 +12,15 @@ const port = process.env.PORT || 5555;
 const staticPath = "./static";
 global.STATICURL = "http://127.0.0.1:5555/"
 app
+  .use(async (ctx,next)=>{
+    await next()
+  })
   .use(cors())
   .use(async (ctx, next) => {
     try {
       await next();
     } catch (err) {
+      console.log(err)
       ctx.status = err.status || 500;
       ctx.body = err.message;
       ctx.app.emit("error", err, ctx);
@@ -35,5 +39,5 @@ app
   .use(_router.routes())
   .use(_router.allowedMethods())
   .listen(port, () => {
-    console.log(`port :${port} success`)
+    // console.log(`port :${port} success`)
   });
