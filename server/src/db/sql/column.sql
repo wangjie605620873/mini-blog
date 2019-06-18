@@ -15,4 +15,4 @@ CREATE TABLE IF NOT EXISTS `column_list`(
 -- 分类描述
 -- 分类创建时间
 -- 分类观看次数
--- 分类收藏次数
+-- 分类收藏人数

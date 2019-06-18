@@ -14,8 +14,8 @@
             <i class="el-icon-pie-chart"></i>
             <span>分类管理</span>
           </template>
-          <el-menu-item index="/admin/addColumn">分类管理</el-menu-item>
           <el-menu-item index="/admin/column">分类类表</el-menu-item>
+          <!--<el-menu-item index="/admin/addColumn">分类管理</el-menu-item>-->
         </el-submenu>
         <el-submenu index="2">
           <template slot="title">

@@ -1,23 +1,16 @@
 const {dbQuery} = require('../db/utils/utils');
 const moment = require('moment');
 class ColumnModel {
-  async addColumn(options) {
+  static async addColumn(options) {
     let {name, desc, imgUrl} = options;
     let Sql = `INSERT INTO column_list (column_name,column_describe,column_cover,column_create) VALUES (${name},${desc},'${imgUrl}',${Date.now() + ''})`;
     let dbData = await dbQuery(Sql);
     return dbData;
   }
-  async getColumn(){
+  static async getColumn(){
     let sql = `SELECT * FROM  column_list`
     let data = await  dbQuery(sql);
     return data
   }
 }
-module.exports = new ColumnModel();
-
-
-
-
-
-
-
+module.exports = ColumnModel

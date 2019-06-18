@@ -1,5 +1,6 @@
 <template>
     <div>
+      <page-header title="添加分类"></page-header>
       <div class="__block_box">
         <h4 class="__block_box_header">添加分类</h4>
         <div class="max-width">
@@ -35,7 +36,11 @@
     </div>
 </template>
 <script>
+  import PageHeader from '../../components/PageHeader/index.vue'
   export default {
+    components:{
+      PageHeader
+    },
     data(){
       return{
         form: {
@@ -43,7 +48,6 @@
           desc: '',
         },
         imgUrl : "",
-
       }
     },
     created(){
