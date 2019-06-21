@@ -6,8 +6,8 @@
 // } = require('../util/token/index');
 
 class UserController {
-  async login(ctx, next) {}
-  async test(ctx, next) {}
+  static async login(ctx, next) {}
+  static async register(ctx,next){}
 
   // //login
   // async login(ctx, next) {
@@ -60,4 +60,4 @@ class UserController {
   // }
 }
 
-module.exports = new UserController();
+module.exports = UserController;

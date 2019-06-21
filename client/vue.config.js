@@ -16,13 +16,12 @@ module.exports = {
     hotOnly: true, // 热更新
     proxy: { //配置自动启动浏览器
       '/api': {
-        target: 'http://17.0.0.1:5555/',
+        target: 'http://127.0.0.1:5555/',
         changeOrigin: true,
-        pathRewrite: {
-          '^/api': '/'
+        pathRewrite : {
+          '^/api/' : '/'
         }
       }
-
     }
   },
 };

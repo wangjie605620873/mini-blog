@@ -23,7 +23,7 @@
     },
     methods: {
       goBack() {
-        this.$router.goBack()
+        this.$router.go(-1)
       }
     },
     created (){
@@ -57,7 +57,7 @@
     cursor: pointer;
     transition: all .3s;
     border-right: 1px solid #dcdfe6;
-    padding-left: 20px;
+    margin-right: 20px;
   }
   .go-back:hover {
     color: #2C61FF;

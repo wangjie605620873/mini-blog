@@ -17,6 +17,8 @@
           <el-menu-item index="/admin/column">分类类表</el-menu-item>
           <!--<el-menu-item index="/admin/addColumn">分类管理</el-menu-item>-->
         </el-submenu>
+
+
         <el-submenu index="2">
           <template slot="title">
             <i class="el-icon-notebook-2"></i>
@@ -24,13 +26,18 @@
           </template>
           <el-menu-item index="/b/report/report-popularize">首页轮播图</el-menu-item>
         </el-submenu>
+
+
+
         <el-submenu index="3">
           <template slot="title">
             <i class="el-icon-data-line"></i>
-            <span>推广效果</span>
+            <span>新建文章</span>
           </template>
-          <el-menu-item index="/b/report/effect-retention">留存分析</el-menu-item>
+          <el-menu-item index="/admin/writeMarkdown">留存分析</el-menu-item>
         </el-submenu>
+
+
         <el-submenu index="4">
           <template slot="title">
             <i class="el-icon-setting"></i>

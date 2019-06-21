@@ -13,6 +13,7 @@ const staticPath = "./static";
 global.STATICURL = "http://127.0.0.1:5555/"
 app
   .use(async (ctx,next)=>{
+    console.log(ctx.request.url)
     await next()
   })
   .use(cors())

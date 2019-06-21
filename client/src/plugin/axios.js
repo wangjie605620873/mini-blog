@@ -5,7 +5,7 @@ console.log(baseURL)
 
 let config = {
   header: {'Content-Type': 'application/x-www-form-urlencoded'},
-  // baseURL: baseURL,
+  baseURL: baseURL,
 };
 const _axios = axios.create(config);
 _axios.interceptors.request.use(

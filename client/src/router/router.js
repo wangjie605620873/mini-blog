@@ -17,6 +17,11 @@ export default new Router({
       component: () => import('../views/login/index.vue')
     },
     {
+      path : "/register",
+      name : 'register',
+      component: () => import('../views/register/index.vue')
+    },
+    {
       path: "/admin",
       component: () => import('../views/admin/index.vue'),
       children: [
@@ -34,7 +39,15 @@ export default new Router({
           path : "addColumn",
           name : 'addColumn',
           component: () => import('../views/addColumn/index.vue')
-        }
+        },
+
+        {
+          path : "writeMarkdown",
+          name : 'writeMarkdown',
+          component: () => import('../views/writeMarkdown/index.vue')
+        },
+
+
 
       ],
     }
