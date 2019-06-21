@@ -4,10 +4,16 @@
 //   SECRET,
 //   TOKEN_TIME,
 // } = require('../util/token/index');
-
+const UserService = require('../service/UserService');
 class UserController {
-  static async login(ctx, next) {}
-  static async register(ctx,next){}
+  static async login(ctx, next) {
+    ctx.body = await UserService.login(ctx);
+    await next
+  }
+  static async register(ctx,next){
+    ctx.body = await UserService.register(ctx);
+    await next
+  }
 
   // //login
   // async login(ctx, next) {

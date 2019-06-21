@@ -1,8 +1,8 @@
 import axios from "axios";
 import baseURL from '../../baseUrl';
 import qs from 'qs';
-console.log(baseURL)
 
+console.log(baseURL)
 let config = {
   header: {'Content-Type': 'application/x-www-form-urlencoded'},
   baseURL: baseURL,
@@ -18,11 +18,29 @@ _axios.interceptors.request.use(
   }
 );
 _axios.interceptors.response.use(
-  function (response) {return response.data;},
-  function (error) {return Promise.reject(error);}
+  function (response) {
+    return response.data;
+  },
+  function (error) {
+    return Promise.reject(error);
+  }
 );
-window.$axios = _axios;
-window.axios = _axios;
+const Axios = function (url,data,method) {
+  console.log(data,'dt')
+  return new Promise((resolve, reject)=>{
+    _axios({
+      url : url,
+      data : data,
+      method : method || 'POST'
+    }).then((res)=>{
+      resolve(res)
+    }).catch((err)=>{
+      resolve(err)
+    })
+  })
+};
+window.$axios = Axios;
+window.axios = Axios;
 window.baseURL = baseURL;
 export default Plugin;
 

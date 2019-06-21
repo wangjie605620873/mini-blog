@@ -8,9 +8,9 @@ class ColumnModel {
     return dbData;
   }
   static async getColumn(){
-    let sql = `SELECT * FROM  column_list`
+    let sql = `SELECT * FROM  column_list`;
     let data = await  dbQuery(sql);
     return data
   }
 }
-module.exports = ColumnModel
+module.exports = ColumnModel;
