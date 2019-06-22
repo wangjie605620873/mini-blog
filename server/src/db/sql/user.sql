@@ -1,4 +1,4 @@
-CREATE TABLE  IF NOT EXISTS  `admin_user` (
+CREATE TABLE  IF NOT EXISTS  `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `phone` varchar(11) NOT NULL unique,
   `password` varchar(255) NOT NULL,
@@ -6,6 +6,4 @@ CREATE TABLE  IF NOT EXISTS  `admin_user` (
   `create_time` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-ALTER TABLE `admin_user` ADD unique(`phone`);
-
-
+ALTER TABLE `user` ADD unique(`phone`);

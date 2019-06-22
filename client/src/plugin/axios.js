@@ -1,8 +1,8 @@
 import axios from "axios";
 import baseURL from '../../baseUrl';
 import qs from 'qs';
-
-console.log(baseURL)
+import {getCookie} from "../assets/js/api"
+import Router from '../router/router'
 let config = {
   header: {'Content-Type': 'application/x-www-form-urlencoded'},
   baseURL: baseURL,
@@ -10,7 +10,14 @@ let config = {
 const _axios = axios.create(config);
 _axios.interceptors.request.use(
   function (config) {
-    config.data = qs.stringify(config.data);
+    let data = config.data || {};
+    if (config.url != '/login' &&  config.url != '/register'){
+      data.token =  getCookie('token');
+      data.phone = getCookie('phone');
+      config.headers.Authorization = `Bearer ${data.token}`;
+    }
+    data = qs.stringify(data);
+    config.data = data;
     return config;
   },
   function (error) {
@@ -19,6 +26,10 @@ _axios.interceptors.request.use(
 );
 _axios.interceptors.response.use(
   function (response) {
+    if (response.data.code == 205){
+      Router.push({path : "/login"})
+      return
+    }
     return response.data;
   },
   function (error) {
@@ -26,7 +37,6 @@ _axios.interceptors.response.use(
   }
 );
 const Axios = function (url,data,method) {
-  console.log(data,'dt')
   return new Promise((resolve, reject)=>{
     _axios({
       url : url,

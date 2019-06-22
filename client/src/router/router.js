@@ -22,14 +22,19 @@ export default new Router({
       component: () => import('../views/register/index.vue')
     },
     {
+      path : "/index",
+      name : "index",
+      component: () => import('../views/index/index.vue')
+    },
+    {
+      path : "/writeMarkdown",
+      name : "writeMarkdown",
+      component: () => import('../views/writeMarkdown/index.vue')
+    },
+    {
       path: "/admin",
       component: () => import('../views/admin/index.vue'),
       children: [
-        {
-          path: "index",
-          name: "index",
-          component: () => import('../views/index/index.vue')
-        },
         {
           path: "column",
           name: "column",
@@ -40,15 +45,6 @@ export default new Router({
           name : 'addColumn',
           component: () => import('../views/addColumn/index.vue')
         },
-
-        {
-          path : "writeMarkdown",
-          name : 'writeMarkdown',
-          component: () => import('../views/writeMarkdown/index.vue')
-        },
-
-
-
       ],
     }
   ]

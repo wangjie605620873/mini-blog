@@ -2,41 +2,44 @@
   <div>
     <div class="global_header">
       <div class="logo"><img height="25" src="@/assets/images/logo.png" alt=""></div>
+      <div class="nav">
+        <div :class="[activeNav == 1 ? 'activeNav' : '','nav-list']" @click="nav(1)">首页</div>
+        <div :class="[activeNav == 2 ? 'activeNav' : '','nav-list']" @click="nav(2)">撰写文章</div>
+        <div :class="[activeNav == 3 ? 'activeNav' : '','nav-list']" @click="nav(3)">管理</div>
+        <div :class="[activeNav == 4 ? 'activeNav' : '','nav-list']" @click="nav(4)">个人设置</div>
+      </div>
       <div class="fun">
-        <span>sdk下载</span>
-        <span>帮助文档</span>
-        <span>个人</span>
+        <span @click="loginOut"> 退出登录</span>
       </div>
     </div>
   </div>
 </template>
-
 <script>
+  import {setCookie} from '../../assets/js/api'
   export default {
     data() {
       return {
-        isSelect: false,
-        createApp_type: false
+        activeNav  : 1,
       }
     },
-    mounted() {
-      window.addEventListener('click', () => {
-        this.isSelect = false
-      })
-    },
     methods: {
-      drop(e) {
-        e.stopPropagation()
-        this.isSelect = !this.isSelect
+      nav(val){
+        if (val == 1){
+          this.$router.push('/index')
+        }else if (val == 2){
+          this.$router.push('/writeMarkdown')
+        }else if (val == 3){
+          this.$router.push('/admin/column')
+        }else if(val == 4){
+          this.$router.push('/personage')
+        }
+        this.activeNav = val;
       },
-      changeApp(e) {
-        e.stopPropagation()
-      },
-      createApp() {
-        this.createApp_type = true;
-      },
-      changeCreateApp_type() {
-        this.createApp_type = false;
+      loginOut(){
+        setCookie('phone',"");
+        setCookie('token',"");
+        this.$router.push({path : "/login"})
+
       }
     }
   }
@@ -54,6 +57,8 @@
     color: #000000;
     background-color: #0343F6;
     background-image: linear-gradient(to bottom, #2C61FF 0%, #094AFE 50%, #0343F6 100%);
+    display: flex;
+    justify-content: space-between;
     .logo {
       float: left;
       line-height: 0;
@@ -63,8 +68,6 @@
       height: 60px;
       line-height: 60px;
       font-size: 14px;
-      position: absolute;
-      right: 20px;
       span {
         color: rgba(255, 255, 255, .7);
         margin: 0 10px;
@@ -76,6 +79,34 @@
         }
       }
     }
+  }
+  .nav{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    margin-left: 30px;
+  }
+  .nav-list{
+    padding:0 30px;
+    color: #ffffff;
+    cursor:pointer;
+    transition:all .3s;
+  }
+  .nav-list:hover{
+    font-weight: bold;
+  }
+  .activeNav{
+    font-weight: bold;
+    position: relative;
+  }
+  .activeNav:after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom:4px;
+    background: #ffffff;
+    left: 0;
   }
 </style>
 

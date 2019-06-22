@@ -23,11 +23,13 @@ class UserService {
         response.message = "密码输入有误";
         return response;
       }
+      //生成token
       let payload = {
         exp: Date.now() + TOKEN_TIME,
-        name: phone
+        name: SECRET
       };
       response.token = jwt.encode(payload, SECRET);
+      response.phone = phone
     } catch (e) {
       response.code = 204;
       response.message = e;

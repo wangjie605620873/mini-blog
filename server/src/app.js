@@ -4,8 +4,6 @@ const cors = require('koa2-cors');
 const {Token_Test, Token_Test_Error} = require('./middleware/token/index');
 const _router = require('./router/index');
 const bodyParser = require('koa-body');
-
-
 const serve = require('koa-static');
 const path = require('path');
 const port = process.env.PORT || 5555;
@@ -34,8 +32,8 @@ app
       multipart: true
     }
   }))
-  .use(Token_Test_Error)
   .use(Token_Test())
+  .use(Token_Test_Error)
   .use(serve(path.join(process.cwd(), staticPath)))
   .use(_router.routes())
   .use(_router.allowedMethods())

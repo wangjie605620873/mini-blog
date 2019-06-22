@@ -59,19 +59,14 @@
       }
     },
     created(){
-      this.getList()
+      this.getColumn()
     },
     methods:{
-      getList(){
-        $axios({
-          url : "/admin/getColumn",
-          method : "POST"
-        }).then((res)=>{
-          if (res.code == 200){
-            this.list = res.data
-            console.log(this.list)
-          }
-        })
+      async getColumn(){
+        let res = await  $axios("/admin/getColumn");
+        if (res.code == 200){
+          this.list = res.data
+        }
       },
       addColumn(){
         this.$router.push({path : "/admin/addColumn"})

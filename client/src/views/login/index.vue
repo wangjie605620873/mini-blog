@@ -22,6 +22,7 @@
   </div>
 </template>
 <script>
+  import {setCookie} from '../../assets/js/api'
   export default {
     name: 'UserLogin',
     data() {
@@ -62,13 +63,15 @@
           phone: this.ruleForm.userPhone,
           password: this.ruleForm.userPassword
         };
-        let res = await $axios('/login', options)
+        let res = await $axios('/login', options);
         if (res.code == 200){
-
+          this.$message.success({message:"登录成功", showClose:true});
+          this.$router.push({path : "/admin/index"});
+          setCookie('token',res.token);
+          setCookie('phone',res.phone);
         }else{
           this.$message.error({message:res.message, showClose:true})
         }
-
       },
       submitForm(formName) {
         this.$refs[formName].validate((valid) => {

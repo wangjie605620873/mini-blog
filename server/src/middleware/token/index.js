@@ -11,7 +11,7 @@ const Token_Test_Error = function (ctx, next) {
     if (err.status === 401) {
       ctx.status = 200;
       ctx.body = {
-        code : 201,
+        code : 205,
         msg: err.originalError ? err.originalError.message : err.message,
         message : "token 验证失败"
       }
