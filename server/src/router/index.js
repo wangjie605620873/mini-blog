@@ -8,6 +8,7 @@ const ColumnController = require("../controller/ColumnController");
 router
   .post('/login', UserController.login)
   .post('/register',UserController.register)
+  .post('/getOpen',UserController.getOpen)
   .post('/admin/addColumn', ColumnController.addColumn)
   .post('/addColumnUploadImg', ColumnController.addColumnUploadImg)
   .post('/admin/getColumn',ColumnController.getColumn)

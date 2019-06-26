@@ -7,6 +7,8 @@ import * as filters from './assets/js/filter'
 import * as directives from './assets/js/directives'
 import 'element-ui/lib/theme-chalk/index.css';
 import './plugin/axios'
+
+
 Vue.config.productionTip = false;
 Vue.use(element);
 //全局注册directive

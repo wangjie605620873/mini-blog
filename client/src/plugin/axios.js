@@ -37,7 +37,7 @@ _axios.interceptors.response.use(
   }
 );
 const Axios = function (url,data,method) {
-  return new Promise((resolve, reject)=>{
+  return new Promise((resolve)=>{
     _axios({
       url : url,
       data : data,

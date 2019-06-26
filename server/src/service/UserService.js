@@ -1,5 +1,5 @@
 const UserModel = require('../model/UserModel');
-let {salt} = require('../utils/index');
+let {salt, request} = require('../utils/index');
 const {SECRET, TOKEN_TIME} = require('../middleware/token/const');
 const jwt = require('jwt-simple');
 class UserService {
@@ -72,10 +72,14 @@ class UserService {
     return response;
   }
 
-  static async profile() {
-    const data = await UserModel.findUserProfile();
-    return {data};
+  static async getOpen(ctx) {
+    let response = {code: 200, message: 'ok'};
+    const AppID = "wxde850899af29ef02";
+    const APPSECRET = "554cb351f20ddea9293d08a6190b21b8";
+    const {jscode} = ctx.request.body;
+    let userInfo = await request({url: `https://api.weixin.qq.com/sns/jscode2session?appid=${AppID}&secret=${APPSECRET}&js_code=${jscode}&grant_type=authorization_code`, method: "GET"});
+    response.data = userInfo.body;
+    return response
   }
 }
-
 module.exports = UserService;

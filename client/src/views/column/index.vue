@@ -8,7 +8,7 @@
           <el-button type="primary" size="mini" @click="addColumn">添加分类</el-button>
         </div>
         <div class="list-box">
-          <div class="column-list"  v-for="item in list">
+          <div class="column-list"  v-for="item in list" v-bind:key="item">
             <div class="list">
               <div class="list-img">
                 <el-image class="el_image" :src="item.column_cover"  fit="cover">

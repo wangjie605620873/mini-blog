@@ -10,6 +10,10 @@ class UserController {
     ctx.body = await UserService.login(ctx);
     await next
   }
+  static async getOpen(ctx,next){
+    ctx.body = await UserService.getOpen(ctx);
+    await next
+  }
   static async register(ctx,next){
     ctx.body = await UserService.register(ctx);
     await next
