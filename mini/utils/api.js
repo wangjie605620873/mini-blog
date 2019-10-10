@@ -1,5 +1,5 @@
 import regeneratorRuntime from './regenerator-runtime/runtime-module.js'
-var baseUrl = 'http://127.0.0.1:4000/';
+var baseUrl = 'http://127.0.0.1:5555/';
 wx.Fetch = async function(url, data = {}) {
   return await new Promise(function (resolve, reject) {
     wx.request({

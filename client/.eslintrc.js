@@ -23,6 +23,7 @@ module.exports = {
     "$axios" : true,
     "axios" : true,
     "Velocity":true,
-    "Echarts" : true
+    "Echarts" : true,
+    "Editor" : true,
   }
 }

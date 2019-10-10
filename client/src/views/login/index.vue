@@ -67,8 +67,8 @@
         if (res.code == 200){
           this.$message.success({message:"登录成功", showClose:true});
           this.$router.push({path : "/admin/index"});
-          setCookie('token',res.token);
-          setCookie('phone',res.phone);
+          setCookie('token',res.data.token);
+          setCookie('phone',res.data.phone);
         }else{
           this.$message.error({message:res.message, showClose:true})
         }

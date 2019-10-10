@@ -9,44 +9,36 @@
         :default-openeds="['1', '2', '3', '4', '5']"
         @open="handleOpen"
         @close="handleClose">
-        <el-submenu index="1">
-          <template slot="title">
-            <i class="el-icon-pie-chart"></i>
-            <span>分类管理</span>
-          </template>
-          <el-menu-item index="/admin/column">分类类表</el-menu-item>
-          <!--<el-menu-item index="/admin/addColumn">分类管理</el-menu-item>-->
-        </el-submenu>
-        <el-submenu index="2">
-          <template slot="title">
-            <i class="el-icon-notebook-2"></i>
-            <span>轮播图管理</span>
-          </template>
-          <el-menu-item index="/b/report/report-popularize">首页轮播图</el-menu-item>
-        </el-submenu>
-        <el-submenu index="3">
-          <template slot="title">
-            <i class="el-icon-data-line"></i>
-            <span>新建文章</span>
-          </template>
-          <el-menu-item index="/admin/writeMarkdown">留存分析</el-menu-item>
-        </el-submenu>
-        <el-submenu index="4">
-          <template slot="title">
-            <i class="el-icon-setting"></i>
-            <span>配置管理</span>
-          </template>
-          <el-menu-item index="/b/report/manage-channel">渠道管理</el-menu-item>
-          <el-menu-item index="/b/report/manage-popularize">推广管理</el-menu-item>
-          <el-menu-item index="/b/report/manage-upload">上传OpenID</el-menu-item>
-        </el-submenu>
-        <el-submenu index="5">
-          <template slot="title">
-            <i class="el-icon-notebook-2"></i>
-            <span>作弊防护</span>
-          </template>
-          <el-menu-item index="/b/report/cheat-preventing">防作弊助手</el-menu-item>
-        </el-submenu>
+        <el-menu-item index="/admin/column">
+          <i class="el-icon-pie-chart"></i>
+          <span>分类管理</span>
+        </el-menu-item>
+
+        <el-menu-item index="/admin/drafts">
+          <i class="el-icon-data-line"></i>
+          <span>草稿箱</span>
+        </el-menu-item>
+
+
+
+
+
+        <!--<el-submenu index="2">-->
+          <!--<template slot="title">-->
+            <!--<i class="el-icon-notebook-2"></i>-->
+            <!--<span>轮播图管理</span>-->
+          <!--</template>-->
+          <!--<el-menu-item index="/b/report/report-popularize">首页轮播图</el-menu-item>-->
+        <!--</el-submenu>-->
+        <!--<el-submenu index="3">-->
+          <!--<template slot="title">-->
+            <!--<i class="el-icon-data-line"></i>-->
+            <!--<span>文章管理</span>-->
+          <!--</template>-->
+          <!--<el-menu-item index="/admin/drafts">文章列表</el-menu-item>-->
+          <!--<el-menu-item index="/admin/drafts">草稿箱</el-menu-item>-->
+        <!--</el-submenu>-->
+
       </el-menu>
     </div>
   </div>

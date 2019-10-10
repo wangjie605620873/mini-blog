@@ -4,8 +4,9 @@ import qs from 'qs';
 import {getCookie} from "../assets/js/api"
 import Router from '../router/router'
 let config = {
-  header: {'Content-Type': 'application/x-www-form-urlencoded'},
+  header: {'Content-Type': 'application/x-www-form-urlencoded','Referer': 'https://www.baidu.com'},
   baseURL: baseURL,
+
 };
 const _axios = axios.create(config);
 _axios.interceptors.request.use(
@@ -26,8 +27,8 @@ _axios.interceptors.request.use(
 );
 _axios.interceptors.response.use(
   function (response) {
-    if (response.data.code == 205){
-      Router.push({path : "/login"})
+    if (response.data.code == 210){
+      Router.push({path : "/login"});
       return
     }
     return response.data;

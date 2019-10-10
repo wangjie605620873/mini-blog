@@ -45,6 +45,11 @@ export default new Router({
           name : 'addColumn',
           component: () => import('../views/addColumn/index.vue')
         },
+        {
+          path : "drafts",
+          name : "drafts",
+          component : () => import('../views/drafts/index.vue')
+        }
       ],
     }
   ]

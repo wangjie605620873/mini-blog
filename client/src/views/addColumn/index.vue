@@ -58,7 +58,8 @@
         } else if (this.form.desc === "") {
           this.$message.error({message: "请填写分类描述!", showClose: true});
           return
-        } else if (this.imgUrl === "") {
+        }
+        else if (this.imgUrl === "") {
           this.$message.error({message: '请上传分类封面！', showClose: true});
           return
         }
@@ -67,16 +68,18 @@
           desc: this.form.desc,
           imgUrl: this.imgUrl
         };
-        let res = await $axios("/admin/addColumn", options);
+        let res = await $axios("/addColumn", options);
         if (res.code == 200) {
           this.$message.success({message: "创建成功"});
           this.$router.push({path: "/admin/column"});
+        }else{
+          this.$error(res.message)
         }
       },
       handleAvatarSuccess(res, file) {
         this.imageUrl = URL.createObjectURL(file.raw);
         if (res.code === 200) {
-          this.imgUrl = res.url
+          this.imgUrl = res.data.imageUrl
         } else {
           this.$message.error({message: '上传失败！', showClose: true});
         }

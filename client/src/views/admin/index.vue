@@ -8,17 +8,16 @@
 </template>
 <script>
   import Menu from '../../components/Menu/index.vue'
-  import Header from  '../../components/Header/index.vue'
+//  import Header from  '../../components/Header/index.vue'
   export default {
     components : {
       Menu,
-      Header
+//      Header
     },
     data(){
       return {}
     },
     created(){
-      console.log(111111)
     }
 
   }
