@@ -66,9 +66,9 @@
         let res = await $axios('/login', options);
         if (res.code == 200){
           this.$message.success({message:"登录成功", showClose:true});
-          this.$router.push({path : "/admin/index"});
-          setCookie('token',res.data.token);
+          setCookie('web_token',res.data.token);
           setCookie('phone',res.data.phone);
+          this.$router.push({path : "/admin/index"});
         }else{
           this.$message.error({message:res.message, showClose:true})
         }

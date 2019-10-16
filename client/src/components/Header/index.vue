@@ -19,27 +19,52 @@
   export default {
     data() {
       return {
-        activeNav  : 1,
+        activeNav: "",
+      }
+    },
+    created(){
+      let router = this.$route.fullPath;
+      if (router.indexOf('/admin/index') != -1) {
+        this.activeNav = 1
+      } else if (router.indexOf('/admin/writeMarkdown') != -1) {
+        this.activeNav = 2
+      } else if (router.indexOf('/admin/manage') != -1) {
+        this.activeNav = 3
+      } else {
+        this.activeNav = 4
       }
     },
     methods: {
-      nav(val){
-        if (val == 1){
-          this.$router.push('/index')
-        }else if (val == 2){
-          this.$router.push('/writeMarkdown')
-        }else if (val == 3){
-          this.$router.push('/admin/column')
-        }else if(val == 4){
-          this.$router.push('/personage')
+      nav(val) {
+        if (val == 1) {
+          this.$router.push('/admin/index')
+        } else if (val == 2) {
+          this.$router.push('/admin/writeMarkdown')
+        } else if (val == 3) {
+          this.$router.push('/admin/manage')
+        } else if (val == 4) {
+          this.$router.push('/admin/personage')
         }
         this.activeNav = val;
       },
-      loginOut(){
-        setCookie('phone',"");
-        setCookie('token',"");
-        this.$router.push({path : "/login"})
-
+      loginOut() {
+        setCookie('phone', "");
+        setCookie('token', "");
+        this.$router.push({path: "/login"})
+      }
+    },
+    watch: {
+      "$route": function (e) {
+        let router = e.fullPath;
+        if (router.indexOf('/admin/index') != -1) {
+          this.activeNav = 1
+        } else if (router.indexOf('/admin/writeMarkdown') != -1) {
+          this.activeNav = 2
+        } else if (router.indexOf('/admin/manage') != -1) {
+          this.activeNav = 3
+        } else {
+          this.activeNav = 4
+        }
       }
     }
   }
@@ -80,31 +105,36 @@
       }
     }
   }
-  .nav{
+
+  .nav {
     display: flex;
     height: 100%;
     flex: 1;
     margin-left: 30px;
   }
-  .nav-list{
-    padding:0 30px;
+
+  .nav-list {
+    padding: 0 30px;
     color: #ffffff;
-    cursor:pointer;
-    transition:all .3s;
+    cursor: pointer;
+    transition: all .3s;
   }
-  .nav-list:hover{
+
+  .nav-list:hover {
     font-weight: bold;
   }
-  .activeNav{
+
+  .activeNav {
     font-weight: bold;
     position: relative;
   }
-  .activeNav:after{
-    content:"";
+
+  .activeNav:after {
+    content: "";
     position: absolute;
     width: 100%;
     height: 2px;
-    bottom:4px;
+    bottom: 4px;
     background: #ffffff;
     left: 0;
   }

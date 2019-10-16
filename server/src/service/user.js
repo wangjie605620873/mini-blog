@@ -44,53 +44,15 @@ class User {
   }
 
 
+
+
+
   static async test(ctx, next) {
-    // const error = new HttpException("参数无找到");
-    // throw error
-
-
     ctx.body = {
       code: 200
     };
     await next();
   }
-
-
-  // static async login(ctx) {
-  //   let {password, phone} = ctx.request.body;
-  //   let response = {code: 200, message: 'ok'};
-  //   if (!/^[1]([3-9])[0-9]{9}$/.test(phone)) {
-  //     response.code = 201;
-  //     response.message = "手机号码格式不正确"
-  //   }
-  //   try {
-  //     let data = await UserModel.login({phone});
-  //     let saltPassword = salt(password);
-  //     if (data.length === 0) {
-  //       response.code = 201;
-  //       response.message = "手机号未注册！";
-  //       return response;
-  //     }
-  //     if (saltPassword !== data[0].password) {
-  //       response.code = 201;
-  //       response.message = "密码输入有误";
-  //       return response;
-  //     }
-  //     //生成token
-  //     let payload = {
-  //       exp: Date.now() + TOKEN_TIME,
-  //       name:phone
-  //     };
-  //     response.token = jwt.encode(payload, SECRET);
-  //     response.phone = phone
-  //   } catch (e) {
-  //     response.code = 204;
-  //     response.message = e;
-  //   }
-  //   return response
-  // }
-  //
-
 
   static async getOpen(ctx, next) {
     console.log(ctx.checkBody)
@@ -102,9 +64,7 @@ class User {
       url: `https://api.weixin.qq.com/sns/jscode2session?appid=${AppID}&secret=${APPSECRET}&js_code=${jscode}&grant_type=authorization_code`,
       method: "GET"
     });
-
     response.data = userInfo.body;
-
     var a = new Promise((resolve, reject) => {
       setTimeout(function () {
         resolve(response)

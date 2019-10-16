@@ -6,5 +6,6 @@ router
   .post("/getDraftArticle",draft.getDraftArticle)
   .post("/delDrafts",draft.delDrafts)
   .post("/publishDrafts",draft.publishDrafts)
+  .post("/setCover",draft.setCover)
 
 module.exports = router;

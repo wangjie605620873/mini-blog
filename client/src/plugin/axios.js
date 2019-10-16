@@ -13,13 +13,18 @@ _axios.interceptors.request.use(
   function (config) {
     let data = config.data || {};
     if (config.url != '/login' &&  config.url != '/register'){
-      data.token =  getCookie('token');
+      data.token =  getCookie('web_token');
       data.phone = getCookie('phone');
-      config.headers.Authorization = `Bearer ${data.token}`;
     }
-    data = qs.stringify(data);
+    // console.log(data,'1')
+    // data = qs.stringify(data);
+    // console.log(data,'2')
+    console.log(data,'1111111')
     config.data = data;
     return config;
+
+
+
   },
   function (error) {
     return Promise.reject(error);

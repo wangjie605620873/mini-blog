@@ -2,34 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77d2dead-fa1f-431e-99e2-7782cf34ef76" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/font/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/font/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/font/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/font/iconfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/dark.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/font/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/font/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/github.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/index.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/light.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/one-dark.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/css/markdown/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/views/admin/manage/article/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/views/admin/manage/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/views/admin/overview/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/views/admin/personage/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/views/articleDetails/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/src/service/mini.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/UpLoad/index.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/test1/index.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/components/test2/index.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/src/views/upload.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/01fd727106dd05020249a604053e15f1_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/06058519140a7c9bf876be7631b3b891_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/06674cd402d84fc1aa9f4be873bb0adc_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/112ca1d8dfac3e868c664eb24cc86f82_smartwang.cn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/1388408dd8d3de2b5081ecb3411bb556_WechatIMG17.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/1805112033602708aafcf8f49467c49c_WechatIMG14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/1e231c7e54b3567b3328a7330858dc29_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/1fb0469e8fe92b2230653f1d9b0407a0_WechatIMG14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/1ff1a26e2fd1a4bdb080c409bb935cd3_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/2fc57e20567f4c6ffdb49138a24b5fba_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/3227453843dcec364df21336a0fed221_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/35251c2ca4676cfd7dcc12947ac21b5a_WechatIMG14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/390b38c53d3a56bfe1eda1017aaa6d4c_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/3cccd0d37e9a832414a02d9d98db46aa_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/425d79e9ca0776422cf2f5ed30196bd1_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/4781a93644a595acec7e472b4ded344c_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/4c4ce99248a48203173bda84d2b6b6bf_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/4eb8aa4724aa4328e756de947e9164ef_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/5231d8bdbc9af05e88d62732f668a479_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/57c4a90114d8b148946c4b42a6fbf7f5_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/58e15d415eadd64d1a97dd8fae37c3f1_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/5a1b22c2e80f64a453d0bffe322d0d6a_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/5bdd6ac6bc1675a416d216d545d14e7d_smartwang.cn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/5c7e18f50e1cbfce09cec0a1c10b0978_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/5f0c0ec05e735545388908064280f7f1_WechatIMG14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/630f2ad146c60c45e6db925d3e94ef1d_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/64250022f14ecead60193060a9dfc610_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/66520ee8203df3f0382e512a13d3526c_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/6684fd4789d38155d18905896d493bef_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/68ea1235916af7bbf1a3176709843ff0_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/6a343f074228664172a9720165848943_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/7584f118a18c30f8c8952fbf2dc0dfbf_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/76bc809bfd524464253ea51f974b3e9c_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/7a2b768d39b633cf6ea71ac19bad37e0_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/7ef13b3a3999b61d0d325539426b7d99_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/8bad177a37a8151bd975745a55e64409_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/8d76d6c79735f2be66081b1d88a6ab8b_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/941760ce3a3c34de2f4731ea72550ffb_image-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/9533065391b732b292e91cbfa4efa0e7_smartwang.cn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/98dccc42c5373eb1cf18de6c33f436af_image-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/9c89dbeeb16137a0a4263506baedb6e0_WechatIMG17.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/a1d8854001a1fb38fd825b225a2bcd9d_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/ab92851da20c792ded10f4b5b9798f22_WechatIMG14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/af2d5dded421e6507a26e65ca01faea4_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/b4316097caa6dd31015c1afe9d3cf52b_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/b54cefdda153418f4daed28205bdb656_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/b7d4ae63aef2fda7243518de674e5948_WechatIMG17.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/b8ddbe2147e2fdb66642470990d5cc2f_image-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/b8e108b6b291cb6df10143361d5c47d7_WechatIMG17.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/d0a45006cc5bd911b92216e16d8429e8_smartwang.cn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/e8c1cba863f060f91c6ea90452b473c4_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/e995048da818ec5cbd7cf32e93661478_image-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/e9e471430452167e6d99f2c033f4fa56_smartwang.cn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/ec8e4ff79e1cc16024b5feac38c81a23_WechatIMG14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/ed26890bb03e79dc982a15a752f90465_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/f04ed1c650e8da6cc4658c1f9002ba1e_WechatIMG14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/static/upload/fa5fe0a9048f06a3014957ab08afb1ad_6ACC9C0E470FFFB5180DF4B761497670.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/views/addColumn/index.vue" afterPath="$PROJECT_DIR$/client/src/views/admin/manage/addColumn/index.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/views/column/index.vue" afterPath="$PROJECT_DIR$/client/src/views/admin/manage/column/index.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/views/drafts/index.vue" afterPath="$PROJECT_DIR$/client/src/views/admin/manage/drafts/index.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/src/views/writeMarkdown/index.vue" afterPath="$PROJECT_DIR$/client/src/views/admin/writeMarkdown/index.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/.eslintrc.js" afterPath="$PROJECT_DIR$/client/.eslintrc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/node_modules/vuex/dist/vuex.common.js" afterPath="$PROJECT_DIR$/client/node_modules/vuex/dist/vuex.common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/node_modules/vuex/package.json" afterPath="$PROJECT_DIR$/client/node_modules/vuex/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package-lock.json" afterPath="$PROJECT_DIR$/client/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/App.vue" afterPath="$PROJECT_DIR$/client/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/assets/css/index.less" afterPath="$PROJECT_DIR$/client/src/assets/css/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Header/index.vue" afterPath="$PROJECT_DIR$/client/src/components/Header/index.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/Menu/index.vue" afterPath="$PROJECT_DIR$/client/src/components/Menu/index.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/PageContainer/index.vue" afterPath="$PROJECT_DIR$/client/src/components/PageContainer/index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/UpLoad/index.vue" afterPath="$PROJECT_DIR$/client/src/components/UpLoad/index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/test1/index.vue" afterPath="$PROJECT_DIR$/client/src/components/test1/index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/test2/index.vue" afterPath="$PROJECT_DIR$/client/src/components/test2/index.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/components/PageHeader/index.vue" afterPath="$PROJECT_DIR$/client/src/components/PageHeader/index.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/main.js" afterPath="$PROJECT_DIR$/client/src/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/plugin/axios.js" afterPath="$PROJECT_DIR$/client/src/plugin/axios.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/router/router.js" afterPath="$PROJECT_DIR$/client/src/router/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/views/addColumn/index.vue" afterPath="$PROJECT_DIR$/client/src/views/addColumn/index.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/views/admin/index.vue" afterPath="$PROJECT_DIR$/client/src/views/admin/index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/views/column/index.vue" afterPath="$PROJECT_DIR$/client/src/views/column/index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/views/drafts/index.vue" afterPath="$PROJECT_DIR$/client/src/views/drafts/index.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/views/index/index.vue" afterPath="$PROJECT_DIR$/client/src/views/index/index.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/views/login/index.vue" afterPath="$PROJECT_DIR$/client/src/views/login/index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/views/writeMarkdown/index.vue" afterPath="$PROJECT_DIR$/client/src/views/writeMarkdown/index.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini/app.js" afterPath="$PROJECT_DIR$/mini/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini/pages/index/index.js" afterPath="$PROJECT_DIR$/mini/pages/index/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini/pages/index/index.wxml" afterPath="$PROJECT_DIR$/mini/pages/index/index.wxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini/pages/my/index.js" afterPath="$PROJECT_DIR$/mini/pages/my/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini/project.config.json" afterPath="$PROJECT_DIR$/mini/project.config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini/utils/api.js" afterPath="$PROJECT_DIR$/mini/utils/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/package-lock.json" afterPath="$PROJECT_DIR$/server/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/package.json" afterPath="$PROJECT_DIR$/server/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/lib/upLoader.js" afterPath="$PROJECT_DIR$/server/src/lib/upLoader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/middleware/verifyToken.js" afterPath="$PROJECT_DIR$/server/src/middleware/verifyToken.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/model/article.js" afterPath="$PROJECT_DIR$/server/src/model/article.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/model/draft.js" afterPath="$PROJECT_DIR$/server/src/model/draft.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/router/article.js" afterPath="$PROJECT_DIR$/server/src/router/article.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/router/draft.js" afterPath="$PROJECT_DIR$/server/src/router/draft.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/router/mini.js" afterPath="$PROJECT_DIR$/server/src/router/mini.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/service/article.js" afterPath="$PROJECT_DIR$/server/src/service/article.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/service/user.js" afterPath="$PROJECT_DIR$/server/src/service/user.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,95 +123,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="draft.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/service/draft.js">
+      <file leaf-file-name="mini.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/service/mini.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="268">
+              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/Menu/index.vue">
+      <file leaf-file-name="mini.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/router/mini.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/views/writeMarkdown/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3810">
-              <caret line="127" column="23" lean-forward="false" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/views/drafts/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2730">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding>
-                <element signature="e#1304#1366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/views/column/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6960">
-              <caret line="236" column="18" lean-forward="false" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="18" />
-              <folding>
-                <element signature="n#div#0;n#PageContainer#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="draft.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/model/draft.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1950">
-              <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/model/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,25 +164,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onPasteImage</find>
-      <find>uploadData</find>
-      <find>crypto</find>
-      <find>createToken</find>
-      <find>TokenException</find>
-      <find>console.log</find>
-      <find>verifyToken</find>
-      <find>32px</find>
-      <find>copy-url</find>
-      <find>分类</find>
-      <find>columnActive</find>
-      <find>validationErrors</find>
       <find>.container</find>
       <find>.page_container</find>
-      <find>page_container</find>
       <find>list-right</find>
       <find>drafts</find>
       <find>list-left</find>
-      <find>setCover</find>
       <find>container</find>
       <find>total</find>
       <find>drafts-info</find>
@@ -178,6 +180,20 @@
       <find>del</find>
       <find>articleId</find>
       <find>getDraftArticle</find>
+      <find>handleAvatarSuccess</find>
+      <find>test1</find>
+      <find>console.log</find>
+      <find>getColumn</find>
+      <find>publish</find>
+      <find>getArticle</find>
+      <find>setCover</find>
+      <find>Header</find>
+      <find>ssp_token</find>
+      <find>writeFilePath</find>
+      <find>page_container</find>
+      <find>where</find>
+      <find>getArticleDetail</find>
+      <find>getArticleDetails</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,57 +202,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/src/router/user.js" />
-        <option value="$PROJECT_DIR$/server/src/router/upfile.js" />
-        <option value="$PROJECT_DIR$/server/src/router/upload.js" />
-        <option value="$PROJECT_DIR$/client/src/main.js" />
-        <option value="$PROJECT_DIR$/server/static/index.html" />
-        <option value="$PROJECT_DIR$/server/config/config.js" />
-        <option value="$PROJECT_DIR$/server/src/router/column.js" />
-        <option value="$PROJECT_DIR$/server/src/middleware/CatchError.js" />
-        <option value="$PROJECT_DIR$/client/src/views/addColumn/index.vue" />
-        <option value="$PROJECT_DIR$/server/src/service/article.js" />
-        <option value="$PROJECT_DIR$/server/src/service/column.js" />
-        <option value="$PROJECT_DIR$/client/package.json" />
-        <option value="$PROJECT_DIR$/client/src/views/admin/index.vue" />
-        <option value="$PROJECT_DIR$/client/src/components/UpLoad/index.vue" />
-        <option value="$PROJECT_DIR$/server/src/router/public.js" />
-        <option value="$PROJECT_DIR$/server/src/service/public.js" />
-        <option value="$PROJECT_DIR$/server/src/model/draft_img.js" />
-        <option value="$PROJECT_DIR$/server/src/model/draftImg.js" />
-        <option value="$PROJECT_DIR$/client/src/views/draft/index.vue" />
-        <option value="$PROJECT_DIR$/client/src/router/router.js" />
-        <option value="$PROJECT_DIR$/server/src/router/other.js" />
-        <option value="$PROJECT_DIR$/server/src/model/column.js" />
-        <option value="$PROJECT_DIR$/server/src/service/plubic" />
-        <option value="$PROJECT_DIR$/server/src/router/plubic.js" />
-        <option value="$PROJECT_DIR$/server/src/router/article.js" />
-        <option value="$PROJECT_DIR$/server/src/app.js" />
-        <option value="$PROJECT_DIR$/server/src/lib/AppMerge.js" />
         <option value="$PROJECT_DIR$/server/src/lib/HttpException.js" />
         <option value="$PROJECT_DIR$/server/src/lib/utils.js" />
-        <option value="$PROJECT_DIR$/server/src/lib/upLoader.js" />
         <option value="$PROJECT_DIR$/server/src/service/commonality.js" />
         <option value="$PROJECT_DIR$/server/src/router/commonality.js" />
-        <option value="$PROJECT_DIR$/server/src/db/index.js" />
-        <option value="$PROJECT_DIR$/client/src/plugin/axios.js" />
-        <option value="$PROJECT_DIR$/server/src/middleware/verifyToken.js" />
-        <option value="$PROJECT_DIR$/server/src/router/mini.js" />
-        <option value="$PROJECT_DIR$/server/src/service/user.js" />
         <option value="$PROJECT_DIR$/client/src/components/test1/index.vue" />
         <option value="$PROJECT_DIR$/client/src/components/test2/index.vue" />
-        <option value="$PROJECT_DIR$/client/src/views/index/index.vue" />
-        <option value="$PROJECT_DIR$/client/src/views/column/index.vue" />
-        <option value="$PROJECT_DIR$/client/src/components/PageContainer/index.vue" />
         <option value="$PROJECT_DIR$/client/node_modules/vuex/dist/vuex.common.js" />
-        <option value="$PROJECT_DIR$/client/src/assets/css/index.less" />
-        <option value="$PROJECT_DIR$/server/src/router/draft.js" />
-        <option value="$PROJECT_DIR$/server/src/model/draft.js" />
+        <option value="$PROJECT_DIR$/server/src/service/draft.js" />
         <option value="$PROJECT_DIR$/client/src/views/drafts/index.vue" />
         <option value="$PROJECT_DIR$/client/src/views/writeMarkdown/index.vue" />
-        <option value="$PROJECT_DIR$/server/src/model/article.js" />
-        <option value="$PROJECT_DIR$/server/src/service/draft.js" />
+        <option value="$PROJECT_DIR$/client/src/views/column/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/components/PageHeader/index.vue" />
+        <option value="$PROJECT_DIR$/server/src/router/article.js" />
+        <option value="$PROJECT_DIR$/client/src/views/article/index.vue" />
+        <option value="$PROJECT_DIR$/server/src/service/article.js" />
+        <option value="$PROJECT_DIR$/server/src/router/draft.js" />
+        <option value="$PROJECT_DIR$/client/src/views/manage/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/views/manage/article/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/views/index/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/App.vue" />
+        <option value="$PROJECT_DIR$/client/src/views/admin/overview/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/views/admin/index.vue" />
         <option value="$PROJECT_DIR$/client/src/components/Menu/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/components/Header/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/views/admin/personage/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/router/router.js" />
+        <option value="$PROJECT_DIR$/client/src/views/admin/manage/index.vue" />
+        <option value="$PROJECT_DIR$/server/src/model/draft.js" />
+        <option value="$PROJECT_DIR$/client/src/plugin/axios.js" />
+        <option value="$PROJECT_DIR$/client/src/views/login/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/views/articleDetails/index.vue" />
+        <option value="$PROJECT_DIR$/client/node_modules/vue-meditor/src/markdown/css/main.less" />
+        <option value="$PROJECT_DIR$/client/node_modules/vue-meditor/src/markdown/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/assets/css/markdown/iconfont.less" />
+        <option value="$PROJECT_DIR$/client/src/assets/css/markdown/main.less" />
+        <option value="$PROJECT_DIR$/client/src/main.js" />
+        <option value="$PROJECT_DIR$/client/src/views/admin/writeMarkdown/index.vue" />
+        <option value="$PROJECT_DIR$/server/src/middleware/verifyToken.js" />
+        <option value="$PROJECT_DIR$/server/src/lib/upLoader.js" />
+        <option value="$PROJECT_DIR$/client/src/views/admin/manage/addColumn/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/components/PageContainer/index.vue" />
+        <option value="$PROJECT_DIR$/client/src/assets/css/index.less" />
+        <option value="$PROJECT_DIR$/client/src/views/admin/manage/column/index.vue" />
+        <option value="$PROJECT_DIR$/server/src/router/banner.js" />
+        <option value="$PROJECT_DIR$/server/src/service/banner.js" />
+        <option value="$PROJECT_DIR$/server/src/model/banner.js" />
+        <option value="$PROJECT_DIR$/server/src/service/user.js" />
+        <option value="$PROJECT_DIR$/server/src/db/index.js" />
+        <option value="$PROJECT_DIR$/server/src/router/mini.js" />
+        <option value="$PROJECT_DIR$/server/src/model/article.js" />
+        <option value="$PROJECT_DIR$/server/src/service/mini.js" />
       </list>
     </option>
   </component>
@@ -266,8 +282,8 @@
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="2042" />
-    <option name="height" value="1341" />
+    <option name="width" value="2560" />
+    <option name="height" value="1342" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -472,6 +488,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -482,13 +499,103 @@
             <path>
               <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="addColumn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="column" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -502,13 +609,25 @@
               <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -531,19 +650,19 @@
     <property name="node.js.selected.package.standard" value="/usr/local/lib/node_modules/eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/assets/css/markdown" />
+      <recent name="$PROJECT_DIR$/client/src/views/admin" />
+      <recent name="$PROJECT_DIR$/client/src/views/manage" />
+      <recent name="$PROJECT_DIR$/server/src/lib/catchError" />
+      <recent name="$PROJECT_DIR$/client/src/router" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/assets/css/markdown" />
       <recent name="$PROJECT_DIR$/server/src/router" />
       <recent name="$PROJECT_DIR$/server/src/model" />
       <recent name="$PROJECT_DIR$/server/src/service" />
       <recent name="$PROJECT_DIR$/server/src/static" />
-      <recent name="$PROJECT_DIR$/client/src/views/register" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/src/lib/catchError" />
-      <recent name="$PROJECT_DIR$/client/src/router" />
-      <recent name="$PROJECT_DIR$/client/src/assets/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/server/db/sql" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -558,7 +677,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.upLoader.js">
+    <configuration name="upLoader.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="upLoader.js" working-dir="$PROJECT_DIR$/server/src/lib" />
     <configuration name="user.sql" type="OdpsQLRunnerConfigurationType" factoryName="MaxCompute SQL">
       <odps_target_file>$PROJECT_DIR$/server/src/db/sql/user.sql</odps_target_file>
       <odps_output_dir>/var/folders/gc/301nhr9j23qcl456rkbl1fs00000gn/T/</odps_output_dir>
@@ -566,6 +686,14 @@
       <odps_parameter name="odps.sql.type.system.odps2" value="true" />
       <odps_parameter name="odps.compiler.runmode" value="Studio" />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.upLoader.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.upLoader.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -660,25 +788,28 @@
       <workItem from="1569397511184" duration="2752000" />
       <workItem from="1569463967068" duration="3552000" />
       <workItem from="1569570020711" duration="36001000" />
-      <workItem from="1570691869107" duration="199000" />
+      <workItem from="1570691869107" duration="6398000" />
+      <workItem from="1570782610600" duration="3201000" />
+      <workItem from="1571018944516" duration="825000" />
+      <workItem from="1571020562688" duration="36197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="397206000" />
+    <option name="totallyTimeSpent" value="443628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11358221" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1584591" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46432889" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46891" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53035843" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -690,7 +821,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -711,257 +841,143 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/src/model/draftImg.js" />
-    <entry file="file://$PROJECT_DIR$/server/src/router/public.js" />
-    <entry file="file://$PROJECT_DIR$/server/src/service/public.js" />
-    <entry file="file://$PROJECT_DIR$/client/src/views/admin/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/views/addColumn/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/router/other.js" />
-    <entry file="file://$PROJECT_DIR$/server/src/middleware/NotFound.js">
+    <entry file="file://$PROJECT_DIR$/client/node_modules/vue-meditor/src/markdown/css/dark.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/service/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/lib/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/router/column.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/service/column.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/service/commonality.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/router/commonality.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/db/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/assets/js/directives.js">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/markdown/dark.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/assets/js/api.js">
+    <entry file="file://$PROJECT_DIR$/client/node_modules/vue-meditor/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/plugin/axios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/lib/AppMerge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/lib/HttpException.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/lib/upLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/UpLoad/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/middleware/CatchError.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1137">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/middleware/verifyToken.js">
+    <entry file="file://$PROJECT_DIR$/client/node_modules/vue-meditor/src/markdown/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/test1/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/test2/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/PageContainer/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/node_modules/vuex/dist/vuex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/node_modules/vuex/dist/vuex.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="408" column="0" lean-forward="false" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
+        <state relative-caret-position="246">
+          <caret line="130" column="21" lean-forward="false" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/vue-meditor/src/markdown/font/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/markdown/iconfont.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/upload/1c7ea49954748ba66ef75fd107de9d8c_spring_in_japan_4-wallpaper-2560x1440.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/optimized.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/markdown/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/admin/writeMarkdown/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/admin/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/markdown/font/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/markdown/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/middleware/verifyToken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/assets/css/index.less">
+    <entry file="file://$PROJECT_DIR$/server/.eslintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/assets/images/001.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/views/index/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#117#159#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/router/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/column.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/router/mini.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/router/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/service/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -969,65 +985,154 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/router/draft.js">
+    <entry file="file://$PROJECT_DIR$/server/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/function.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="302">
+            <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/upload/1480c8992b490853a6d673f2932521ef_WechatIMG17.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/upload/b63563c3594dba2b8f054c3da2ae9eb1_WechatIMG17.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/upload/3b61e040d4efc50618c71020f552742a_WechatIMG17.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/upload/56dbecce03d90955d4df938115a75ebf_WechatIMG17.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/PageContainer/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="44" />
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/model/user.js">
+    <entry file="file://$PROJECT_DIR$/client/src/views/admin/manage/addColumn/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/views/column/index.vue">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6960">
-          <caret line="236" column="18" lean-forward="false" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#PageContainer#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="339">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/views/drafts/index.vue">
+    <entry file="file://$PROJECT_DIR$/client/src/views/admin/manage/column/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="e#1304#1366#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="301">
+          <caret line="83" column="8" lean-forward="true" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/views/writeMarkdown/index.vue">
+    <entry file="file://$PROJECT_DIR$/server/src/router/commonality.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3810">
-          <caret line="127" column="23" lean-forward="false" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/router/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/router/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/router/column.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/service/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/service/column.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/model/column.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/service/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/draft.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="24" />
+        <state relative-caret-position="-653">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1035,31 +1140,97 @@
     <entry file="file://$PROJECT_DIR$/server/src/service/draft.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/router/draft.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/server/src/lib/AppMerge.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Menu/index.vue">
+    <entry file="file://$PROJECT_DIR$/server/src/db/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        <state relative-caret-position="497">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/lib/upLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/lib/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/router/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/router/mini.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/model/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="239">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/service/mini.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding />
         </state>
       </provider>

@@ -9,35 +9,20 @@
         :default-openeds="['1', '2', '3', '4', '5']"
         @open="handleOpen"
         @close="handleClose">
-        <el-menu-item index="/admin/column">
+        <el-menu-item index="/admin/manage/column">
           <i class="el-icon-pie-chart"></i>
           <span>分类管理</span>
         </el-menu-item>
 
-        <el-menu-item index="/admin/drafts">
+        <el-menu-item index="/admin/manage/drafts">
           <i class="el-icon-data-line"></i>
           <span>草稿箱</span>
         </el-menu-item>
 
-
-
-
-
-        <!--<el-submenu index="2">-->
-          <!--<template slot="title">-->
-            <!--<i class="el-icon-notebook-2"></i>-->
-            <!--<span>轮播图管理</span>-->
-          <!--</template>-->
-          <!--<el-menu-item index="/b/report/report-popularize">首页轮播图</el-menu-item>-->
-        <!--</el-submenu>-->
-        <!--<el-submenu index="3">-->
-          <!--<template slot="title">-->
-            <!--<i class="el-icon-data-line"></i>-->
-            <!--<span>文章管理</span>-->
-          <!--</template>-->
-          <!--<el-menu-item index="/admin/drafts">文章列表</el-menu-item>-->
-          <!--<el-menu-item index="/admin/drafts">草稿箱</el-menu-item>-->
-        <!--</el-submenu>-->
+        <el-menu-item index="/admin/manage/article">
+          <i class="el-icon-data-line"></i>
+          <span>文章列表</span>
+        </el-menu-item>
 
       </el-menu>
     </div>

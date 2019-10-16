@@ -80,8 +80,8 @@ DraftModel.init({
   articleTitle: Sequelize.STRING,
   columnActive: Sequelize.STRING,
   dateActive: Sequelize.STRING,
-  articleBodyHtml: Sequelize.STRING,
-  articleBodyMark: Sequelize.STRING,
+  articleBodyHtml: Sequelize.TEXT,
+  articleBodyMark: Sequelize.TEXT,
   articleCover: Sequelize.STRING,
   userId: Sequelize.STRING
 }, {sequelize, tableName: 'draft'});

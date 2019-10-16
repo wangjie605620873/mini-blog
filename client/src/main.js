@@ -1,4 +1,7 @@
 import './assets/css/index.less'
+import './assets/css/markdown/main.less'
+import './assets/css/markdown/font/iconfont.css'
+
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router/router'
@@ -11,6 +14,9 @@ import './plugin/axios'
 
 Vue.config.productionTip = false;
 Vue.use(element);
+
+// Vue.component('MarkDown',MarkDown)
+
 //全局注册directive
 Object.keys(directives).forEach(key => {
   Vue.directive(key, directives[key]())

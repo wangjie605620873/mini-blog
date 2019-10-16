@@ -5,7 +5,7 @@
         <div v-if="back" class="go-back el-icon-back" @click="goBack"><span>返回</span></div>
         <div class="header-content">{{title}}</div>
       </div>
-      <slot class="slot"></slot>
+      <slot class="_slot"></slot>
     </div>
   </div>
 </template>
@@ -69,7 +69,7 @@
     color: #666;
     font-weight: 700;
   }
-  .slot {
+  ._slot {
     flex: 1;
   }
   .page-header-left {

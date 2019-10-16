@@ -7,11 +7,6 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/upload',
-      name: 'about',
-      component: () => import('../views/upload.vue')
-    },
-    {
       path: '/login',
       name: 'login',
       component: () => import('../views/login/index.vue')
@@ -22,34 +17,64 @@ export default new Router({
       component: () => import('../views/register/index.vue')
     },
     {
-      path : "/index",
-      name : "index",
-      component: () => import('../views/index/index.vue')
-    },
-    {
-      path : "/writeMarkdown",
-      name : "writeMarkdown",
-      component: () => import('../views/writeMarkdown/index.vue')
+      path : "/articleDetails",
+      name : "articleDetails",
+      component : () => import('../views/articleDetails/index.vue')
     },
     {
       path: "/admin",
       component: () => import('../views/admin/index.vue'),
       children: [
         {
-          path: "column",
-          name: "column",
-          component: () => import('../views/column/index.vue')
+          path : "index",
+          name : "index",
+          component: () => import('../views/admin/overview/index.vue')
         },
         {
-          path : "addColumn",
-          name : 'addColumn',
-          component: () => import('../views/addColumn/index.vue')
+          path : "writeMarkdown",
+          name : "writeMarkdown",
+          component: () => import('../views/admin/writeMarkdown/index.vue')
         },
         {
-          path : "drafts",
-          name : "drafts",
-          component : () => import('../views/drafts/index.vue')
-        }
+          path : "personage",
+          name : "personage",
+          component: () => import('../views/admin/personage/index.vue')
+        },
+
+        {
+            path: "manage",
+            name : "manage",
+            component: () => import('../views/admin/manage/index.vue'),
+            redirect : {name : "column"},
+            children: [
+              {
+                path: "column",
+                name: "column",
+                component: () => import('../views/admin/manage/column/index.vue')
+              },
+              {
+                path : "addColumn",
+                name : 'addColumn',
+                component: () => import('../views/admin/manage/addColumn/index.vue')
+              },
+              {
+                path : "drafts",
+                name : "drafts",
+                component : () => import('../views/admin/manage/drafts/index.vue')
+              },
+              {
+                path : "article",
+                name : "article",
+                component : () => import('../views/admin/manage/article/index.vue')
+              },
+            ]
+
+        },
+
+
+
+
+
       ],
     }
   ]
