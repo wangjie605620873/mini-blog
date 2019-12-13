@@ -35,7 +35,7 @@
     "koa2-cors": "^2.0.6",
     "moment": "^2.24.0",
     "mysql2": "^1.6.4",
-    "npm": "^6.9.0",
+    "npm": "^6.13.4",
     "request": "^2.88.0",
     "require-directory": "^2.1.1",
     "sequelize": "^5.17.1",
